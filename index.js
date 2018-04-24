@@ -11,6 +11,8 @@ app.set('view engine', 'ejs');
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 
+app.use(express.static(__dirname + 'fba7a9af4ee78bbfc5d6ef8de0aa2cc2.txt'));
+
 // set the home page route
 app.get('/', function(req, res) {
 

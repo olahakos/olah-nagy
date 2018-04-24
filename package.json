@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/olahakos/olah-nagy/issues"
   },
-  "homepage": "https://github.com/olahakos/olah-nagy#readme"
+  "homepage": "https://github.com/olahakos/olah-nagy#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
